@@ -35,7 +35,9 @@ public class Money {
     *
     *       1 euro = 0.7989 livre sterling
     *       1 livre sterling =  1.25 euro
-    *
+    *       ghfhf
+    *       hjhjhj
+    *       j
     * */
     public Money add(Money money){
 
