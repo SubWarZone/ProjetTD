@@ -44,9 +44,9 @@ public class Money {
         if(money.fCurrency.equals(this.fCurrency)){
             this.fAmount+=money.fAmount;
         }
-
-
-
+        else{
+            System.out.println("ce n est pas la meme currency");
+        }
         return this;
     }
 

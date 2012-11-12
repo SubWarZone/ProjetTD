@@ -40,13 +40,5 @@ public class MoneyTest {
         money.add(money2);
 
         assert money.amount() == 200:"erreur";
-
-        }
-
-
     }
-
-
-
-
 }
