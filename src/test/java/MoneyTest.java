@@ -30,6 +30,22 @@ public class MoneyTest {
         assert money4.currency().equals("GBP"):"il y a un probleme avec testAmount sur la valeur de fCurrency";
 
     }
+    @Test
+    public void testAdd(){
+
+
+        Money money= new Money(100,"EUR");
+        Money money2=new Money(100,"EUR");
+
+        money.add(money2);
+
+        assert money.amount() == 200:"erreur";
+
+        }
+
+
+    }
+
 
 
 
